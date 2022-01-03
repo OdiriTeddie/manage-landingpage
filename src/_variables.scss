@@ -1,0 +1,30 @@
+@use "sass:meta";
+
+
+//sass variable
+$primary-300: hsl(12, 88%, 59%);
+$primary-400: hsl(228, 39%, 23%);
+$neutral-300: hsl(227, 12%, 61%);
+$neutral-400: hsl(233, 12%, 13%);
+$neutral-500: hsl(13, 100%, 96%);
+$neutral-600: hsl(0, 0%, 98%);
+
+$font-family: 'Be Vietnam', sans-serif;
+
+$fs-300: 1rem;
+
+
+//css variable
+:root {
+  --primary-clr-300: #{meta.inspect($primary-300)};
+  --primary-clr-400: #{meta.inspect($primary-400)};
+
+  --neutral-clr-300: #{meta.inspect($neutral-300)};
+  --neutral-clr-400: #{meta.inspect($neutral-400)};
+  --neutral-clr-500: #{meta.inspect($neutral-500)};
+  --neutral-clr-600: #{meta.inspect($neutral-600)};
+
+  --ff-300: #{meta.inspect($font-family)};
+
+  --fs-300: #{meta.inspect($fs-300)};
+}

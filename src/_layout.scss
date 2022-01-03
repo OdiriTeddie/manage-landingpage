@@ -1,0 +1,36 @@
+.container {
+    max-width: 68.75rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.flow-content > * + * {
+    margin-top: 1em;
+}
+
+.flow-content--lg > * + * {
+    margin-top: 2em;
+}
+
+.flow-content--xl > * + * {
+    margin-top: 3em;
+}
+
+.flow-content--xxl > * + * {
+    margin-top: 3em;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 900;
+}

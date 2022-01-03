@@ -1,0 +1,37 @@
+// Gneral styles
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--neutral-clr-300);
+    font-size: var(--fs-300);
+    font-family: var(--ff-300);
+    line-height: 1.6;
+    // background-color: var(--neutral-clr-600);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--primary-clr-400);
+    line-height: 1.2;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}

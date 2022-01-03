@@ -1,0 +1,48 @@
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding:  0.85em 1.95em;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+    
+
+    &--primary {
+        color: var(--neutral-clr-600);
+        background: var(--primary-clr-300);
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    &--accent {
+        color: var(--primary-clr-300);
+        background: var(--neutral-clr-600);
+
+        &:hover {
+            color: hsla(12, 88%, 59%, 0.5);
+        }
+    }
+
+    &--number {
+        cursor: auto;
+        color: var(--neutral-clr-600);
+        background: var(--primary-clr-300);
+        padding: 0.5em 1.5em;
+        font-size: 1rem;
+    }
+
+    &--submit {
+        color: var(--neutral-clr-600);
+        background: var(--primary-clr-300);
+        font-size: 1rem;
+
+        &:hover {
+            background-color: hsl(12, 95%, 74%);
+        }
+    }
+}
+
